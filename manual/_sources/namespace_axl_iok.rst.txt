@@ -1,0 +1,44 @@
+.. index:: pair: namespace; axl::iok
+.. _doxid-namespaceaxl_1_1iok:
+
+namespace axl::iok
+==================
+
+.. toctree::
+	:hidden:
+
+	class_axl_iok_Iterator.rst
+	class_axl_iok_ObjectBase.rst
+	class_axl_iok_RegistryEntry.rst
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	
+	namespace iok {
+
+	// typedefs
+
+	typedef :ref:`ObjectBase<doxid-classaxl_1_1iok_1_1_object_base>`<io_object_t> :target:`Object<doxid-namespaceaxl_1_1iok_1a54f19be616f10104bf829d51e575b1c5>`;
+
+	// classes
+
+	class :ref:`Iterator<doxid-classaxl_1_1iok_1_1_iterator>`;
+
+	template <typename T>
+	class :ref:`ObjectBase<doxid-classaxl_1_1iok_1_1_object_base>`;
+
+	class :ref:`RegistryEntry<doxid-classaxl_1_1iok_1_1_registry_entry>`;
+
+	// global functions
+
+	:ref:`cf::MutableDictionaryRef<doxid-classaxl_1_1cf_1_1_mutable_dictionary_ref>`
+	:target:`createServiceMatchingDictionary<doxid-namespaceaxl_1_1iok_1a0ded9ce7449d4828c87fadb7fe66b455>`(const char* service);
+
+	:ref:`Iterator<doxid-classaxl_1_1iok_1_1_iterator>`
+	:target:`findMatchingServices<doxid-namespaceaxl_1_1iok_1a70b44cab00d33ae5698533c4671d9703>`(CFMutableDictionaryRef dict);
+
+	} // namespace iok

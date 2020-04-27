@@ -1,0 +1,35 @@
+.. index:: pair: class; axl::mem::Tracker
+.. _doxid-classaxl_1_1mem_1_1_tracker:
+
+class axl::mem::Tracker
+=======================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <axl_mem_Tracker.h>
+	
+	class Tracker
+	{
+	public:
+		// construction
+	
+		:target:`Tracker<doxid-classaxl_1_1mem_1_1_tracker_1a3d0f143ea2b71107e48297390c9bc7b0>`();
+
+		// methods
+	
+		void
+		:target:`add<doxid-classaxl_1_1mem_1_1_tracker_1a0437e122934420883cc2a523b6479253>`(:ref:`TrackerBlockHdr<doxid-structaxl_1_1mem_1_1_tracker_block_hdr>`* hdr);
+	
+		void
+		:target:`remove<doxid-classaxl_1_1mem_1_1_tracker_1a556a072cfe8092084318847c0b3d9448>`(:ref:`TrackerBlockHdr<doxid-structaxl_1_1mem_1_1_tracker_block_hdr>`* hdr);
+	
+		void
+		:target:`trace<doxid-classaxl_1_1mem_1_1_tracker_1ad157df39ceb77a48820b1bc27bf3caba>`();
+	};

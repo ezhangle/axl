@@ -1,0 +1,25 @@
+.. index:: pair: class; axl::gui::Widget
+.. _doxid-classaxl_1_1gui_1_1_widget:
+
+class axl::gui::Widget
+======================
+
+.. toctree::
+	:hidden:
+
+
+
+
+.. ref-code-block:: cpp
+	:class: doxyrest-overview-code-block
+
+	#include <axl_gui_Widget.h>
+	
+	class Widget
+	{
+	public:
+		// methods
+	
+		:ref:`Engine<doxid-classaxl_1_1gui_1_1_engine>`*
+		:target:`getGuiEngine<doxid-classaxl_1_1gui_1_1_widget_1a7675f531b4290f8c44e3ab6357ee024f>`();
+	};
